@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    tools:context="healthcentives.com.healthcentives.MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/imageView7"
+        android:src="@android:color/holo_green_dark" />
+
+    <TextView
+        android:id="@+id/gymSessions5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gymSessions6"
+        android:layout_toEndOf="@+id/imageView7"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Active Coins"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/gymSessions6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/imageView7"
+        android:layout_marginTop="36dp"
+        android:layout_toEndOf="@+id/imageView7"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/gymSessions3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/gymSessions4"
+        android:layout_toEndOf="@+id/imageView6"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="0 hours"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/gymSessions4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView6"
+        android:layout_toEndOf="@+id/imageView6"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Time In Gym"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignStart="@+id/imageView4"
+        android:layout_centerVertical="true"
+        app:srcCompat="@mipmap/ic_run" />
+
+    <TextView
+        android:id="@+id/gymSessions2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView4"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_toEndOf="@+id/imageView4"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="26dp"
+        app:srcCompat="@mipmap/ic_gym" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="13dp"
+        android:background="@drawable/rounded"
+        android:text="Summary"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/gymSessions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignStart="@+id/gymSessions2"
+        android:layout_alignTop="@+id/gymSessions2"
+        android:layout_marginTop="48dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Gym Sessions"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView5"
+        android:layout_toStartOf="@+id/gymSessions"
+        app:srcCompat="@mipmap/ic_timer" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/imageView5"
+        android:layout_marginBottom="24dp"
+        app:srcCompat="@mipmap/ic_money" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/imageView7"
+        android:src="@android:color/holo_red_dark" />
+</RelativeLayout>
